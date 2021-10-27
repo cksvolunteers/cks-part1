@@ -1,0 +1,240 @@
+body {
+  margin: 0;
+  padding: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  font-weight: 100;
+}
+
+.container {
+  max-width: 1470px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+i{
+  font-weight: -100;
+}
+.header-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  text-align: center;
+}
+
+.header-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-top-right-column-first{
+  align-self: flex-end;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.header-top-right-column-first ul{
+  flex-direction: row;
+  margin-right: 13px;
+  margin-top: -40px;
+  display: flex;  
+  align-items: center;
+}
+
+.header-bottom {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#378bd4),
+    color-stop(50%, #378bd4),
+    color-stop(75%, rgba(238, 238, 238, 0))
+  );
+  background: linear-gradient(to left, #378bd4, #378bd4 50%, rgba(238, 238, 238, 0) 75%);
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+li {
+  transition: 0.5s;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.header-top-left .gradient-box img {
+  width: 50px;
+  height: 10px;
+  margin-left: 150px;
+}
+.header-bottom-left img {
+  width: 300px;
+}
+.header-top-left .gradient-box h3 {
+  margin-left: 20px;
+  font-weight: 100;
+  width: 130px;
+}
+#btn_left, #btn_right{
+  color: #b9bcbe;
+}
+.header-top-right,
+.header-bottom-right {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+}
+
+.header-top-right,
+.header-bottom-right ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.header-top-right ul li {
+  margin-left: 15px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  transition: 0.5s;
+  font-size: 20px;
+  cursor: pointer;
+}
+.menu-item a{
+  font-size: 17px;
+  color: aliceblue;
+}
+li:hover {
+  color: #05345e;
+  font-weight: 500;
+  transform: scale(1.1);
+}
+
+.header-top-right-column-second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100;
+  color: #05345e;
+  font-weight: 10px;
+}
+
+.header-top-right-column-second h4 {
+  color: #05345e;
+  font-weight: 400;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.header-top-right-column-second .icons {
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.header-top-right-column-second .icons-box {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 15px;
+  border: 1px solid black;
+  border-radius: 100%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.icons-box:hover {
+  color: red;
+  border: 1px solid red;
+  transform: scale(1.5);
+}
+/*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1470px;
+  margin: 0 auto;
+}
+
+.section-inner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.section-text {
+  background: rgb(255, 254, 254);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 254, 254, 1) 0%,
+    rgba(255, 254, 254, 1) 24%,
+    rgba(255, 255, 255, 0.7) 75%,
+    rgba(255, 255, 255, 0) 95%
+  );
+  width: 850px;
+  height: 500px;
+  padding-left: 80px;
+}
+.section-text .text p{
+  width: 300px;
+  font-size: 20px;
+}
+
+
+.text h1 {
+  font-size: 50px;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: rgb(50, 68, 122);
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.text p {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: rgb(50, 68, 122);
+  font-size: 24px;
+}
+
+.section-img {
+  margin-top: 40px;
+  margin-right: 80px;
+}
+
+.img1 {
+  position: absolute;
+  width: 30px;
+  height: 50px;
+  top: 50%;
+  left: 3%;
+  transform: translate(-50%, -50%);
+}
+
+.img {
+  position: absolute;
+  width: 30px;
+  height: 50px;
+  top: 50%;
+  left: 97%;
+  transform: translate(-50%, -50%);
+}
+
